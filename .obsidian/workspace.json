@@ -1,0 +1,217 @@
+{
+  "main": {
+    "id": "1272d4e536001c0d",
+    "type": "split",
+    "children": [
+      {
+        "id": "ca6a49b920064701",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d825b8d988a70aef",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "codex/Agent-Dice_ Disentangling Knowledge Updates via Geometric Consensus for Agent Continual Learning.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Agent-Dice_ Disentangling Knowledge Updates via Geometric Consensus for Agent Continual Learning"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ce06e88d76b50b9b",
+    "type": "split",
+    "children": [
+      {
+        "id": "6668cdd5b40cdabe",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1ccfd200e6fe86f5",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "e0a9fac79935627e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:Mobile Agent",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "558b0d412f89428b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "d3feaba80ff7ba8b",
+    "type": "split",
+    "children": [
+      {
+        "id": "6a426103a12c93b0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "464795fcbde60c02",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "codex/KnowU-Bench_ Towards Interactive, Proactive, and Personalized Mobile Agent Evaluation.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "KnowU-Bench_ Towards Interactive, Proactive, and Personalized Mobile Agent Evaluation 的反向链接列表"
+            }
+          },
+          {
+            "id": "7b6aabc32cab5c97",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "codex/KnowU-Bench_ Towards Interactive, Proactive, and Personalized Mobile Agent Evaluation.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "KnowU-Bench_ Towards Interactive, Proactive, and Personalized Mobile Agent Evaluation 的出链列表"
+            }
+          },
+          {
+            "id": "d4cf6591c24ccc9c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "94caa3c07af0aa87",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "8c52f5d2fb875d95",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "codex/KnowU-Bench_ Towards Interactive, Proactive, and Personalized Mobile Agent Evaluation.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "KnowU-Bench_ Towards Interactive, Proactive, and Personalized Mobile Agent Evaluation 的大纲"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false
+    }
+  },
+  "active": "d825b8d988a70aef",
+  "lastOpenFiles": [
+    "sources/VeriOS_ Query-Driven Proactive Human-Agent-GUI Interaction for Trustworthy OS Agents.md",
+    "sources/Self-Contrast_Better Reflection Through Inconsistent Solving Perspectives.md",
+    "sources/Rethinking Memory Mechanisms of Foundation Agents in the Second Half_ A Survey.md",
+    "sources/Quick on the Uptake_ Eliciting Implicit Intents from Human Demonstrations for Personalized Mobile-Use Agents.md",
+    "sources/MemoryBench_ A Benchmark for Memory and Continual Learning in LLM Systems.md",
+    "sources/Plan-MCTS_ Plan Exploration for Action Exploitation in Web Navigation.md",
+    "sources/MobileUse_ A GUI Agent with Hierarchical Reflection for Autonomous Mobile Operation.md",
+    "sources/MemoryArena_ Benchmarking Agent Memory in Interdependent Multi-Session Agentic Tasks.md",
+    "sources/HammerBench_ Fine-Grained Function-Calling Evaluation in Real Mobile Device Scenarios.md",
+    "sources/LLM-based Multi-Agent Systems_ Techniques and Business Perspectives.md",
+    "sources/KnowU-Bench_ Towards Interactive, Proactive, and Personalized Mobile Agent Evaluation.md",
+    "sources/LaMP_ When Large Language Models Meet Personalization.md",
+    "sources/Hammer_ Robust Function-Calling for On-Device Language Models via Function Masking.md",
+    "sources/Beyond a Million Tokens_ Benchmarking and Enhancing Long-Term Memory in LLMs.md",
+    "sources/Evo-Memory_ Benchmarking LLM Agent Test-time Learning with Self-Evolving Memory.md",
+    "sources/ColorBrowserAgent_ Complex Long-Horizon Browser Agent with Adaptive Knowledge Evolution.md",
+    "sources/Evaluating Memory in LLM Agents via Incremental Multi-Turn Interactions.md",
+    "sources/ColorBench_ Benchmarking Mobile Agents with Graph-Structured Framework for Complex Long-Horizon Tasks.md",
+    "sources/Adaptive Milestone Reward for GUI Agents.md",
+    "sources/Agent-Dice_ Disentangling Knowledge Updates via Geometric Consensus for Agent Continual Learning.md",
+    "sources",
+    "lokinko_kb/Adaptive Milestone Reward for GUI Agents.md",
+    "codex/Agent-Dice_ Disentangling Knowledge Updates via Geometric Consensus for Agent Continual Learning.md",
+    "codex/Adaptive Milestone Reward for GUI Agents.md",
+    "codex/ColorBench_ Benchmarking Mobile Agents with Graph-Structured Framework for Complex Long-Horizon Tasks.md",
+    "codex/Plan-MCTS_ Plan Exploration for Action Exploitation in Web Navigation.md",
+    "codex/MobileUse_ A GUI Agent with Hierarchical Reflection for Autonomous Mobile Operation.md",
+    "lokinko_kb/未确认 157209.crdownload"
+  ]
+}
