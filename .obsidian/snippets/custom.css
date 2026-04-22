@@ -1,0 +1,4 @@
+body {
+    --file-margins: 6vh 1%; /* 上下边距 6vh，左右边距 5% */
+    --file-line-width: 98%;
+}

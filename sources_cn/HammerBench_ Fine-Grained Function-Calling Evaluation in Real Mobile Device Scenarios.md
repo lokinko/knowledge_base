@@ -10,7 +10,7 @@ authors:
   - Muning Wen
   - et al.
 tags:
-  - Function Calling
+  - Function-Calling
   - Benchmark
   - Mobile
   - Agent

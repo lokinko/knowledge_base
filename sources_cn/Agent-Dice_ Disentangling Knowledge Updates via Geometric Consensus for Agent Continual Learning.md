@@ -10,10 +10,10 @@ authors:
   - Xinbei Ma
   - et al.
 tags:
-  - Continual Learning
+  - Continual-Learning
   - Agent
-  - Parameter Fusion
-  - Tool Use
+  - Parameter-Fusion
+  - Tool-Use
 links:
   论文: https://arxiv.org/abs/2601.03641
   代码: https://github.com/Wuzheng02/Agent-Dice
@@ -171,3 +171,4 @@ Agent-Dice 的优势在于：
 Agent-Dice 的关键价值，在于把 agent 持续学习中的稳定性-可塑性困境重新表述为“共通知识与冲突知识的分离问题”。它通过几何共识过滤先去掉互相打架的更新，再通过曲率加权放大共享且重要的参数方向，从而以较低代价提升多任务持续学习表现。对于需要不断吸收新 app、新工具、新任务的 agent 系统，这是一条比单纯顺序微调更有针对性的路线。
 
 > 来源：[[Agent-Dice_ Disentangling Knowledge Updates via Geometric Consensus for Agent Continual Learning]]
+

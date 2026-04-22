@@ -10,7 +10,7 @@ authors:
   - Qiuying Peng
   - et al.
 tags:
-  - GUI Agent
+  - GUI-Agent
   - Mobile
   - Reflection
 links:

@@ -11,9 +11,9 @@ authors:
   - et al.
 tags:
   - Benchmark
-  - Mobile Agent
-  - GUI Agent
-  - Long Horizon
+  - Mobile-Agent
+  - GUI-Agent
+  - Long-Horizon
 links:
   论文: https://arxiv.org/abs/2510.14621
   代码: https://github.com/MadeAgents/ColorBench

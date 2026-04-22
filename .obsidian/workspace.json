@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "codex/Agent-Dice_ Disentangling Knowledge Updates via Geometric Consensus for Agent Continual Learning.md",
+                "file": "AGENTS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Agent-Dice_ Disentangling Knowledge Updates via Geometric Consensus for Agent Continual Learning"
+              "title": "AGENTS"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:Mobile Agent",
+                "query": "tag:#Agent",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 343.5
   },
   "right": {
     "id": "d3feaba80ff7ba8b",
@@ -180,38 +180,57 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "bases:新建数据库": false
+      "bases:新建数据库": false,
+      "xiaohongshu-importer:Import Xiaohongshu note": false
     }
   },
-  "active": "d825b8d988a70aef",
+  "active": "1ccfd200e6fe86f5",
   "lastOpenFiles": [
-    "sources/VeriOS_ Query-Driven Proactive Human-Agent-GUI Interaction for Trustworthy OS Agents.md",
-    "sources/Self-Contrast_Better Reflection Through Inconsistent Solving Perspectives.md",
-    "sources/Rethinking Memory Mechanisms of Foundation Agents in the Second Half_ A Survey.md",
-    "sources/Quick on the Uptake_ Eliciting Implicit Intents from Human Demonstrations for Personalized Mobile-Use Agents.md",
-    "sources/MemoryBench_ A Benchmark for Memory and Continual Learning in LLM Systems.md",
-    "sources/Plan-MCTS_ Plan Exploration for Action Exploitation in Web Navigation.md",
-    "sources/MobileUse_ A GUI Agent with Hierarchical Reflection for Autonomous Mobile Operation.md",
-    "sources/MemoryArena_ Benchmarking Agent Memory in Interdependent Multi-Session Agentic Tasks.md",
-    "sources/HammerBench_ Fine-Grained Function-Calling Evaluation in Real Mobile Device Scenarios.md",
-    "sources/LLM-based Multi-Agent Systems_ Techniques and Business Perspectives.md",
-    "sources/KnowU-Bench_ Towards Interactive, Proactive, and Personalized Mobile Agent Evaluation.md",
-    "sources/LaMP_ When Large Language Models Meet Personalization.md",
-    "sources/Hammer_ Robust Function-Calling for On-Device Language Models via Function Masking.md",
-    "sources/Beyond a Million Tokens_ Benchmarking and Enhancing Long-Term Memory in LLMs.md",
-    "sources/Evo-Memory_ Benchmarking LLM Agent Test-time Learning with Self-Evolving Memory.md",
-    "sources/ColorBrowserAgent_ Complex Long-Horizon Browser Agent with Adaptive Knowledge Evolution.md",
-    "sources/Evaluating Memory in LLM Agents via Incremental Multi-Turn Interactions.md",
-    "sources/ColorBench_ Benchmarking Mobile Agents with Graph-Structured Framework for Complex Long-Horizon Tasks.md",
-    "sources/Adaptive Milestone Reward for GUI Agents.md",
-    "sources/Agent-Dice_ Disentangling Knowledge Updates via Geometric Consensus for Agent Continual Learning.md",
-    "sources",
-    "lokinko_kb/Adaptive Milestone Reward for GUI Agents.md",
-    "codex/Agent-Dice_ Disentangling Knowledge Updates via Geometric Consensus for Agent Continual Learning.md",
-    "codex/Adaptive Milestone Reward for GUI Agents.md",
-    "codex/ColorBench_ Benchmarking Mobile Agents with Graph-Structured Framework for Complex Long-Horizon Tasks.md",
-    "codex/Plan-MCTS_ Plan Exploration for Action Exploitation in Web Navigation.md",
-    "codex/MobileUse_ A GUI Agent with Hierarchical Reflection for Autonomous Mobile Operation.md",
-    "lokinko_kb/未确认 157209.crdownload"
+    "sources/rednote/很多人没理解Multi Agent 的逻辑.md",
+    "sources/rednote/分享几个最近 Harness 值得读的 blog.md",
+    "sources/media/分享几个最近-Harness-值得读的-blog-0-1776861501345.jpg",
+    "skills/rednote_skill.md",
+    "skills/rednote.skill",
+    "tools/rednote_importer.mjs",
+    "tools",
+    "sources/xhs/Mem Benchmark调研.md",
+    "sources/media/Mem-Benchmark调研-0-1776860820007.jpg",
+    "sources/xhs/很多人没理解Multi Agent 的逻辑。.md",
+    "sources/media/Mem-Benchmark调研-9-1776860824744.jpg",
+    "sources/media/Mem-Benchmark调研-8-1776860824436.jpg",
+    "sources/media/Mem-Benchmark调研-7-1776860824068.jpg",
+    "sources/media/Mem-Benchmark调研-6-1776860823733.jpg",
+    "sources/media/Mem-Benchmark调研-5-1776860823368.jpg",
+    "sources/media/Mem-Benchmark调研-4-1776860822949.jpg",
+    "sources/media/Mem-Benchmark调研-3-1776860821158.jpg",
+    "sources/media/Mem-Benchmark调研-2-1776860820828.jpg",
+    "sources/xhs",
+    "sources/rednote/很多人没理解Multi Agent 的逻辑。.md",
+    "sources/rednote",
+    "sources/X/llm knowledge base @ karpathy on X.md",
+    "sources/X",
+    "sources/arXiv/VeriOS_ Query-Driven Proactive Human-Agent-GUI Interaction for Trustworthy OS Agents.md",
+    "sources/arXiv/Self-Contrast_Better Reflection Through Inconsistent Solving Perspectives.md",
+    "sources/arXiv/Rethinking Memory Mechanisms of Foundation Agents in the Second Half_ A Survey.md",
+    "sources/arXiv/Quick on the Uptake_ Eliciting Implicit Intents from Human Demonstrations for Personalized Mobile-Use Agents.md",
+    "sources/arXiv/Plan-MCTS_ Plan Exploration for Action Exploitation in Web Navigation.md",
+    "sources/arXiv/MobileUse_ A GUI Agent with Hierarchical Reflection for Autonomous Mobile Operation.md",
+    "sources/arXiv/MemoryBench_ A Benchmark for Memory and Continual Learning in LLM Systems.md",
+    "sources/arXiv/MemoryArena_ Benchmarking Agent Memory in Interdependent Multi-Session Agentic Tasks.md",
+    "sources/arXiv/LLM-based Multi-Agent Systems_ Techniques and Business Perspectives.md",
+    "sources/arXiv/LaMP_ When Large Language Models Meet Personalization.md",
+    "sources/arXiv/KnowU-Bench_ Towards Interactive, Proactive, and Personalized Mobile Agent Evaluation.md",
+    "sources/arXiv/HammerBench_ Fine-Grained Function-Calling Evaluation in Real Mobile Device Scenarios.md",
+    "sources/arXiv/Hammer_ Robust Function-Calling for On-Device Language Models via Function Masking.md",
+    "sources/arXiv/Evo-Memory_ Benchmarking LLM Agent Test-time Learning with Self-Evolving Memory.md",
+    "sources/arXiv/Evaluating Memory in LLM Agents via Incremental Multi-Turn Interactions.md",
+    "sources/arXiv/ColorBrowserAgent_ Complex Long-Horizon Browser Agent with Adaptive Knowledge Evolution.md",
+    "sources/arXiv/ColorBench_ Benchmarking Mobile Agents with Graph-Structured Framework for Complex Long-Horizon Tasks.md",
+    "sources/arXiv/Beyond a Million Tokens_ Benchmarking and Enhancing Long-Term Memory in LLMs.md",
+    "sources/arXiv/Agent-Dice_ Disentangling Knowledge Updates via Geometric Consensus for Agent Continual Learning.md",
+    "sources/arXiv",
+    "sources/media",
+    "sources//media",
+    "sources/"
   ]
 }

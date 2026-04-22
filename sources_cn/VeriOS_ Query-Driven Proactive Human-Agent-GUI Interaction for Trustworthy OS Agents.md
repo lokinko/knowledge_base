@@ -10,10 +10,10 @@ authors:
   - Xingyu Lou
   - et al.
 tags:
-  - OS Agent
+  - OS-Agent
   - Trustworthiness
   - Human-in-the-Loop
-  - GUI Agent
+  - GUI-Agent
 links:
   论文: https://arxiv.org/abs/2509.07553
   代码: https://github.com/Wuzheng02/VeriOS

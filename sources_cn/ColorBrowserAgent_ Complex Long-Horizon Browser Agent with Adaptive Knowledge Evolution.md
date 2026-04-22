@@ -10,10 +10,10 @@ authors:
   - Weiming Zhang
   - et al.
 tags:
-  - Browser Agent
-  - Web Navigation
+  - Browser-Agent
+  - Web-Navigation
   - Knowledge
-  - Long Horizon
+  - Long-Horizon
 links:
   论文: https://arxiv.org/abs/2601.07262
 ---

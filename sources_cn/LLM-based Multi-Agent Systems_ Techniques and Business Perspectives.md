@@ -16,6 +16,12 @@ tags:
   - Business
 links:
   论文: https://arxiv.org/html/2411.14033v2
+assets:
+  - ../public/pictures/lamas-illustration-of-mas.png
+  - ../public/pictures/lamas-protocol-hierarchy.png
+  - ../public/pictures/lamas-topology.png
+  - ../public/pictures/lamas-centralized-architect.png
+  - ../public/pictures/lamas-decentralized-architect.png
 ---
 
 ## 核心主题
@@ -146,6 +152,10 @@ links:
 - 编排与数据处理可以解耦。
 - 协调权不必等于数据所有权。
 - credit allocation 可以与最小化数据暴露同时设计。
+
+## 图示资产
+
+本次重建已将 source 中的主要图示本地化到 `public/pictures/`，并登记在 [[../knowledge_index/assets.md]]。这些图主要覆盖 LaMAS 总览、协议层级、topology、monetization 和集中式/去中心化架构。当前页面暂不逐图展开解读，后续若做 LaMAS 专题综述，可把 `lamas-protocol-hierarchy.png` 和两组 architecture 图作为重点证据。
 
 ## 与仓库内相关文档的对照理解
 

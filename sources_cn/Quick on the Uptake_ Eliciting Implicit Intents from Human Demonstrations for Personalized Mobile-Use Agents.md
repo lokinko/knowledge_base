@@ -10,9 +10,9 @@ authors:
   - Yanjia Yang
   - et al.
 tags:
-  - Mobile Agent
+  - Mobile-Agent
   - Personalization
-  - Demonstration Learning
+  - Demonstration-Learning
   - Intent
 links:
   论文: https://arxiv.org/abs/2508.08645

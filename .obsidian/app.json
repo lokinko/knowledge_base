@@ -1,6 +1,8 @@
 {
-  "readableLineLength": false,
+  "readableLineLength": true,
   "spellcheck": false,
   "autoPairBrackets": false,
-  "autoPairMarkdown": false
+  "autoPairMarkdown": false,
+  "showLineNumber": true,
+  "promptDelete": false
 }
