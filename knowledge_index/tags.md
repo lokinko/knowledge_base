@@ -1,6 +1,6 @@
 # Tags
 
-Updated: 2026-04-22
+Updated: 2026-04-28
 
 ## Tag Vocabulary
 
@@ -17,6 +17,9 @@ Updated: 2026-04-22
 - `Continual Learning`: 服务期学习、参数更新、稳定性-可塑性。
 - `Multi-Agent`: 多智能体协作、协议、路由、收益分配。
 - `LLM Knowledge Base`: LLM 维护 markdown wiki、索引、lint 和查询产物。
+- `Reasoning`: Chain-of-thought、多路径推理、答案聚合和解码策略。
+- `Frontier Model`: 前沿通用模型、model card、能力评测和发布风险边界。
+- `Safety Evaluation`: 红队、安全策略、灾难风险评估和部署等级。
 
 ## Tag to Pages
 
@@ -40,6 +43,8 @@ Updated: 2026-04-22
 - [[../wiki/Plan-MCTS_ Plan Exploration for Action Exploitation in Web Navigation.md]]
 - [[../wiki/ColorBrowserAgent_ Complex Long-Horizon Browser Agent with Adaptive Knowledge Evolution.md]]
 - [[../wiki/VeriOS_ Query-Driven Proactive Human-Agent-GUI Interaction for Trustworthy OS Agents.md]]
+- [[../wiki/MAESTRO_ Adapting GUIs and Guiding Navigation with User Preferences in Conversational Agents with GUIs.md]]
+- [[../wiki/Uncertainty-Aware GUI Agent_ Adaptive Perception through Component Recommendation and Human-in-the-Loop Refinement.md]]
 
 ### Personalization / Proactivity / Consent
 
@@ -48,6 +53,7 @@ Updated: 2026-04-22
 - [[../wiki/Quick on the Uptake_ Eliciting Implicit Intents from Human Demonstrations for Personalized Mobile-Use Agents.md]]
 - [[../wiki/LaMP_ When Large Language Models Meet Personalization.md]]
 - [[../wiki/VeriOS_ Query-Driven Proactive Human-Agent-GUI Interaction for Trustworthy OS Agents.md]]
+- [[../wiki/MAESTRO_ Adapting GUIs and Guiding Navigation with User Preferences in Conversational Agents with GUIs.md]]
 
 ### Reflection
 
@@ -56,6 +62,8 @@ Updated: 2026-04-22
 - [[../wiki/MobileUse_ A GUI Agent with Hierarchical Reflection for Autonomous Mobile Operation.md]]
 - [[../wiki/ColorBrowserAgent_ Complex Long-Horizon Browser Agent with Adaptive Knowledge Evolution.md]]
 - [[../wiki/VeriOS_ Query-Driven Proactive Human-Agent-GUI Interaction for Trustworthy OS Agents.md]]
+- [[../wiki/Self-Consistency Improves Chain of Thought Reasoning in Language Models.md]]
+- [[../wiki/Uncertainty-Aware GUI Agent_ Adaptive Perception through Component Recommendation and Human-in-the-Loop Refinement.md]]
 
 ### Function Calling / Tool Use
 
@@ -63,6 +71,7 @@ Updated: 2026-04-22
 - [[../wiki/Hammer_ Robust Function-Calling for On-Device Language Models via Function Masking.md]]
 - [[../wiki/HammerBench_ Fine-Grained Function-Calling Evaluation in Real Mobile Device Scenarios.md]]
 - [[../wiki/LLM-based Multi-Agent Systems_ Techniques and Business Perspectives.md]]
+- [[../wiki/The Claude 3 Model Family_Opus, Sonnet, Haiku.md]]
 
 ### Continual Learning
 
@@ -82,6 +91,17 @@ Updated: 2026-04-22
 - [[../wiki/LLM Knowledge Base @karpathy on X.md]]
 - [[../wiki/LLM Agent Research Map.md]]
 
+### Reasoning / Decoding
+
+- [[../wiki/LLM Reasoning Decoding.md]]
+- [[../wiki/Self-Consistency Improves Chain of Thought Reasoning in Language Models.md]]
+- [[../wiki/Agent Reflection.md]]
+
+### Frontier Model / Model Card / Safety Evaluation
+
+- [[../wiki/Frontier Model Evaluation.md]]
+- [[../wiki/The Claude 3 Model Family_Opus, Sonnet, Haiku.md]]
+
 ## Synonyms and Normalization
 
 - `Mobile-Agent`, `Mobile Agent`, `mobile-use agent` -> `Mobile Agent`
@@ -89,4 +109,5 @@ Updated: 2026-04-22
 - `Memory`, `Long-Term Memory`, `Agent Memory` -> prefer `Agent Memory`; keep specific tags when meaningful
 - `Tool Use`, `Function-Calling`, `Function Calling` -> prefer `Function Calling`
 - `Reflection`, `Self-Correction`, `Error Recovery` -> prefer `Reflection`; keep specific mechanism tags as secondary
-
+- `Chain-of-Thought`, `CoT`, `Reasoning` -> prefer `Reasoning`; keep `Chain of Thought` when the source specifically discusses CoT prompting
+- `Model Card`, `Frontier Model`, `Safety Evaluation` -> keep distinct tags; model card is source type, frontier model is entity class, safety evaluation is evaluation dimension

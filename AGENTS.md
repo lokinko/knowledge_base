@@ -85,6 +85,7 @@
 执行任务时应主动检查并读取相关技能，而不是每次重新设计流程。当前已知：
 
 - `skills/arXiv_skill.md`：处理 arXiv 摘要页、论文页、HTML/PDF 链接和论文剪藏。
+- `skills/pdf_skill.md`：完整阅读和解析 PDF 全文，提取章节、页码、图表、表格、公式、证据边界，并整合进 wiki。
 
 如果来源、任务或内容特征匹配技能，技能优先；但本文件的 wiki 维护理念、索引要求和事实边界仍然生效。
 
@@ -116,9 +117,10 @@
    - 可为该 source 创建来源笔记。
    - 可更新已有概念页、主题页、对比页或综述页。
    - 若新 source 改变了旧结论，必须在相关页面标注修订依据。
-8. 添加内部链接、反向链接、tags、来源链接和资产引用。
-9. 更新 `knowledge_index/index.md`、`sources.md`、`tags.md`、`backlinks.md`、`related.md`、`concepts.md`、`assets.md` 中相关内容。
-10. 向 `knowledge_index/log.md` 追加 ingest 记录，说明处理了什么、更新了哪些页面、留下哪些待确认问题。
+   - 严格区分代码和公式，公式请使用 $\text{laTex}$ 的格式，短 code 使用 `code` 风格。
+1. 添加内部链接、反向链接、tags、来源链接和资产引用，每个内容至少总结出 1 个最核心的结论，并提 3 个重要的问题。
+2. 更新 `knowledge_index/index.md`、`sources.md`、`tags.md`、`backlinks.md`、`related.md`、`concepts.md`、`assets.md` 中相关内容。
+3. 向 `knowledge_index/log.md` 追加 ingest 记录，说明处理了什么、更新了哪些页面、留下哪些待确认问题。
 
 单个 source 可以触达 10-15 个 wiki 文件。不要把 ingest 简化成“在 `wiki/` 里生成同名摘要”。
 
@@ -394,6 +396,13 @@ assets:
 - source、url、正文链接中出现 `arxiv.org`。
 - 文件是 arXiv 摘要页、论文页、HTML 页或 PDF 页剪藏。
 - 正文中出现 arXiv 编号、`abs`、`pdf`、`html` 等明显信号。
+
+明确触发 `skills/pdf_skill.md` 的情况：
+
+- 用户要求“阅读 PDF”“解析 PDF”“完整解析 PDF”“总结论文 PDF”或从 PDF 建立 wiki。
+- source、url、正文链接或本地文件路径中出现 `.pdf`。
+- `sources/`、`sources/media/` 或其子目录中存在待处理 PDF 文件。
+- 需要基于论文 PDF、报告 PDF、手册 PDF 或扫描 PDF 提取全文级结论、图表、表格、公式或页码级证据。
 
 技能要求和本文件冲突时：
 

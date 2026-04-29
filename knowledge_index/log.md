@@ -1,5 +1,36 @@
 # Knowledge Log
 
+## [2026-04-28] ingest | arXiv GUI agents, reasoning decoding, and Claude 3 model card
+
+- Sources: [[../sources/arXiv/MAESTRO_ Adapting GUIs and Guiding Navigation with User Preferences in Conversational Agents with GUIs.md]], [[../sources/arXiv/Uncertainty-Aware GUI Agent_ Adaptive Perception through Component Recommendation and Human-in-the-Loop Refinement.md]], [[../sources/arXiv/Self-Consistency Improves Chain of Thought Reasoning in Language Models.md]], [[../sources/arXiv/The Claude 3 Model Family_Opus, Sonnet, Haiku.md]]
+- Added source notes: [[../wiki/MAESTRO_ Adapting GUIs and Guiding Navigation with User Preferences in Conversational Agents with GUIs.md]], [[../wiki/Uncertainty-Aware GUI Agent_ Adaptive Perception through Component Recommendation and Human-in-the-Loop Refinement.md]], [[../wiki/Self-Consistency Improves Chain of Thought Reasoning in Language Models.md]], [[../wiki/The Claude 3 Model Family_Opus, Sonnet, Haiku.md]]
+- Added concept pages: [[../wiki/LLM Reasoning Decoding.md]], [[../wiki/Frontier Model Evaluation.md]]
+- Updated concepts: [[../wiki/GUI Agent.md]], [[../wiki/Mobile Agent Personalization.md]], [[../wiki/Agent Reflection.md]], [[../wiki/Function Calling.md]], [[../wiki/Long-Horizon Agent Evaluation.md]], [[../wiki/LLM Agent Research Map.md]]
+- Assets: localized [[../sources/media/maestro-overview.png]], [[../sources/media/recagent-overview.png]]
+- Index changes: updated index, sources, tags, backlinks, related, concepts, assets, questions
+- Notes: This pass initially relied on non-PDF fallback context for Self-Consistency; the later `Self-Consistency PDF full parse` entry supersedes it with direct PDF extraction. Claude 3 source markdown only contained an iframe, so the PDF was downloaded to temp and text-extracted. All four source frontmatter statuses were changed from `new` to `processed`.
+
+## [2026-04-28] schema | PDF parsing skill
+
+- Added skill: [[../skills/pdf_skill.md]]
+- Updated: [[../AGENTS.md]]
+- Notes: added a full-PDF reading workflow covering text extraction, page mapping, figures, tables, formulas, OCR limits, wiki integration, index updates, assets, and log requirements.
+
+## [2026-04-28] ingest | Self-Consistency PDF full parse
+
+- Source: [[../sources/arXiv/Self-Consistency Improves Chain of Thought Reasoning in Language Models.md]]
+- PDF: downloaded temporarily from https://arxiv.org/pdf/2203.11171 and deleted after processing
+- Updated: [[../sources_cn/Self-Consistency Improves Chain of Thought Reasoning in Language Models.md]], [[../wiki/Self-Consistency Improves Chain of Thought Reasoning in Language Models.md]], [[../wiki/LLM Reasoning Decoding.md]], [[../wiki/Agent Reflection.md]]
+- Index changes: [[index.md]], [[sources.md]], [[tags.md]], [[backlinks.md]], [[related.md]], [[concepts.md]], [[assets.md]], [[questions.md]]
+- Assets: rendered p.2, p.5 and p.6 into [[../sources/media/self-consistency-2203.11171]]
+- Notes: PDF has 24 pages, text layer extracted with `pdftotext -layout`, key figures/tables verified by rendered page images. Source status changed from `new` to `processed`; local PDF and temporary extracted text were removed after ingest.
+
+## [2026-04-28] schema | refine PDF skill cleanup and output rules
+
+- Updated: [[../skills/pdf_skill.md]]
+- Cleaned: [[../sources_cn/Self-Consistency Improves Chain of Thought Reasoning in Language Models.md]], [[../wiki/Self-Consistency Improves Chain of Thought Reasoning in Language Models.md]], [[assets.md]], [[sources.md]]
+- Notes: PDF skill now requires deleting local PDF/temp text after processing and forbids writing redundant `PDF 解析范围` / `页码范围` process sections into final notes. Page citations remain allowed as evidence pointers.
+
 ## [2026-04-22] schema | rednote importer skill
 
 - Added tool: [[../tools/rednote_importer.mjs]]

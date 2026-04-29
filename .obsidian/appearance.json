@@ -1,8 +1,8 @@
 {
-  "interfaceFontFamily": "Fira Code",
-  "textFontFamily": "Fira Code",
-  "monospaceFontFamily": "Fira Code",
-  "baseFontSize": 14,
+  "interfaceFontFamily": "Helvetica,Calibri,Fira Code",
+  "textFontFamily": "Calibri,Helvetica,Fira Code",
+  "monospaceFontFamily": "Helvetica,Calibri,Fira Code",
+  "baseFontSize": 15,
   "baseFontSizeAction": true,
   "enabledCssSnippets": [
     "custom"

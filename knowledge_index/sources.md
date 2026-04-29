@@ -1,6 +1,6 @@
 # Sources Mapping
 
-Updated: 2026-04-22
+Updated: 2026-04-28
 
 ## arXiv and ACL Sources
 
@@ -24,6 +24,10 @@ Updated: 2026-04-22
 - [[../sources/Rethinking Memory Mechanisms of Foundation Agents in the Second Half_ A Survey.md]] -> [[../wiki/Rethinking Memory Mechanisms of Foundation Agents in the Second Half_ A Survey.md]], [[../wiki/Agent Memory.md]], [[../wiki/Agent Memory Benchmarks.md]]
 - [[../sources/Self-Contrast_Better Reflection Through Inconsistent Solving Perspectives.md]] -> [[../wiki/Self-Contrast_Better Reflection Through Inconsistent Solving Perspectives.md]], [[../wiki/Agent Reflection.md]]
 - [[../sources/VeriOS_ Query-Driven Proactive Human-Agent-GUI Interaction for Trustworthy OS Agents.md]] -> [[../wiki/VeriOS_ Query-Driven Proactive Human-Agent-GUI Interaction for Trustworthy OS Agents.md]], [[../wiki/GUI Agent.md]], [[../wiki/Mobile Agent Personalization.md]]
+- [[../sources/arXiv/MAESTRO_ Adapting GUIs and Guiding Navigation with User Preferences in Conversational Agents with GUIs.md]] -> [[../wiki/MAESTRO_ Adapting GUIs and Guiding Navigation with User Preferences in Conversational Agents with GUIs.md]], [[../wiki/GUI Agent.md]], [[../wiki/Mobile Agent Personalization.md]], [[../wiki/Long-Horizon Agent Evaluation.md]]
+- [[../sources/arXiv/Uncertainty-Aware GUI Agent_ Adaptive Perception through Component Recommendation and Human-in-the-Loop Refinement.md]] -> [[../wiki/Uncertainty-Aware GUI Agent_ Adaptive Perception through Component Recommendation and Human-in-the-Loop Refinement.md]], [[../wiki/GUI Agent.md]], [[../wiki/Agent Reflection.md]], [[../wiki/Long-Horizon Agent Evaluation.md]]
+- [[../sources/arXiv/Self-Consistency Improves Chain of Thought Reasoning in Language Models.md]] -> [[../wiki/Self-Consistency Improves Chain of Thought Reasoning in Language Models.md]], [[../wiki/LLM Reasoning Decoding.md]], [[../wiki/Agent Reflection.md]]
+- [[../sources/arXiv/The Claude 3 Model Family_Opus, Sonnet, Haiku.md]] -> [[../wiki/The Claude 3 Model Family_Opus, Sonnet, Haiku.md]], [[../wiki/Frontier Model Evaluation.md]], [[../wiki/Function Calling.md]]
 
 ## Web / Social Sources
 
@@ -36,3 +40,6 @@ Updated: 2026-04-22
 - 2026-04-22 自动构建收敛时，已将 `sources_cn/` 中已有 source-note 物化到 `wiki/`，并补齐 [[../sources/llm knowledge base @ karpathy on X.md]] 的 `sources_cn` 版本。
 - 多数 source-note 依据 arXiv 摘要页整理，页面内已标注摘要级证据边界。
 - [[../sources/Self-Contrast_Better Reflection Through Inconsistent Solving Perspectives.md]] 本地剪藏正文为空；本次核验了 ACL Anthology 页面元数据与摘要。
+- 2026-04-28 处理 `sources/arXiv/` 下 4 个新 source，并已将 frontmatter `status` 改为 `processed`。
+- [[../sources/arXiv/The Claude 3 Model Family_Opus, Sonnet, Haiku.md]] 原始剪藏仅含 PDF iframe；本次通过 PDF 文本抽取补读。
+- [[../sources/arXiv/Self-Consistency Improves Chain of Thought Reasoning in Language Models.md]] 已下载并解析 arXiv PDF；处理后删除本地 PDF，仅将关键页截图登记在 [[assets.md]]。

@@ -9,12 +9,12 @@ updated: 2026-04-22
 source_count: 1
 confidence: medium
 tags:
-  - Mobile Agent
+  - Mobile-Agent
   - Personalization
   - Proactivity
   - Benchmark
   - Consent
-  - GUI Agent
+  - GUI-Agent
 sources:
   - "[[../sources/KnowU-Bench_ Towards Interactive, Proactive, and Personalized Mobile Agent Evaluation.md]]"
 links:

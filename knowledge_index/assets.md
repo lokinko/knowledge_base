@@ -1,6 +1,6 @@
 # Assets
 
-Updated: 2026-04-22
+Updated: 2026-04-28
 
 ## Localized Assets
 
@@ -20,7 +20,19 @@ These images were localized from [[../sources/LLM-based Multi-Agent Systems_ Tec
 
 - [[../sources/media/分享几个最近-Harness-值得读的-blog-0-1776861501345.jpg]] — Xiaohongshu note image localized from [[../sources/rednote/分享几个最近 Harness 值得读的 blog.md]]; used by: [[../sources/rednote/分享几个最近 Harness 值得读的 blog.md]]
 
+## arXiv Figure Assets
+
+- [[../sources/media/maestro-overview.png]] — MAESTRO overview figure localized from https://arxiv.org/html/2604.06134v1/x1.png; used by: [[../wiki/MAESTRO_ Adapting GUIs and Guiding Navigation with User Preferences in Conversational Agents with GUIs.md]]
+- [[../sources/media/recagent-overview.png]] — RecAgent overview figure localized from https://arxiv.org/html/2508.04025v1/x1.png; used by: [[../wiki/Uncertainty-Aware GUI Agent_ Adaptive Perception through Component Recommendation and Human-in-the-Loop Refinement.md]]
+
+## PDF-Derived Assets
+
+- [[../sources/media/self-consistency-2203.11171/page-02-02.png]] — rendered p.2 with Figure 1 method diagram; used by: [[../wiki/Self-Consistency Improves Chain of Thought Reasoning in Language Models.md]]
+- [[../sources/media/self-consistency-2203.11171/page-05.png]] — rendered p.5 with Table 2/3 main results; used by: [[../wiki/Self-Consistency Improves Chain of Thought Reasoning in Language Models.md]]
+- [[../sources/media/self-consistency-2203.11171/page-06.png]] — rendered p.6 with Figure 2 and Table 4; used by: [[../wiki/Self-Consistency Improves Chain of Thought Reasoning in Language Models.md]]
+
 ## Pending Asset Work
 
 - Existing source-note pages do not yet embed localized LaMAS images. They are registered here first to keep source traceability. A later pass can add selected images into [[../wiki/LLM-based Multi-Agent Systems_ Techniques and Business Perspectives.md]] with captions and interpretation.
 - Other arXiv abstract sources did not expose inline images in local markdown.
+- 2026-04-28 only the most central overview figures were localized for MAESTRO and RecAgent; remaining paper figures can be localized later if a detailed figure-reading pass is requested.

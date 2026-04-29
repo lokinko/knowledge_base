@@ -9,8 +9,8 @@ updated: 2026-04-22
 source_count: 1
 confidence: medium
 tags:
-  - Agent Memory
-  - Long-Term Memory
+  - Agent-Memory
+  - Long-Term-Memory
   - Long-Context
   - Benchmark
   - BEAM
