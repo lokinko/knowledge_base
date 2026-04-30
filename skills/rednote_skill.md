@@ -47,7 +47,7 @@ node tools/rednote_importer.mjs --input sources/rednote_links.txt
 2. 运行 `tools/rednote_importer.mjs`，优先下载图片到 `sources/media/`。
 3. 如果页面被拦截或解析为空，要求用户提供浏览器 Cookie，并通过 `REDNOTE_COOKIE` 或 `--cookie` 传入。
 4. 检查生成的 `sources/rednote/*.md` 是否有标题、正文、图片引用和来源 URL。
-5. 如用户要求继续知识化，再按本仓库 ingest 协议读取这些 `status: "new"` source，写入 `sources_cn/`、`wiki/` 并更新索引。
+5. 如用户要求继续知识化，再按本仓库 ingest 协议读取这些 `status: "new"` source，写入 `summary/`、`wiki/` 并更新索引。
 
 ## 信息边界
 
